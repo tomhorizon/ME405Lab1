@@ -1,6 +1,6 @@
 # code
-
 import utime
+
 def encoder():
     pinB6 = pyb.Pin (pyb.Pin.board.PB6, pyb.Pin.IN)
     pinB7 = pyb.Pin (pyb.Pin.board.PB7, pyb.Pin.IN)
@@ -30,6 +30,7 @@ def motor_control():
 if __name__ == "__main__":
     enc_timer = encoder()
     motor_control()
+    
     while True:
         count = enc_timer.counter()
         if count_old != count:

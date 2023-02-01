@@ -1,13 +1,13 @@
 class MotorDriver:
     def _init__(self, en_pin, in1pin, in2pin, timer):
-        in1pin = pyb.Pin (pyb.Pin.board.PB4, pyb.Pin.OUT_PP)
-        in2pin = pyb.Pin (pyb.Pin.board.PB5, pyb.Pin.OUT_PP)
-        en_pin = pyb.Pin (pyb.Pin.board.PA10, pyb.Pin.IN, pyb.Pin.PULL_UP)
+        self.motorpin1 = pyb.Pin (pyb.Pin.board.in1pin, pyb.Pin.OUT_PP)
+        self.motorpin2 = pyb.Pin (pyb.Pin.board.in2pin, pyb.Pin.OUT_PP)
+        self.enablepin = pyb.Pin (pyb.Pin.board.en_pin, pyb.Pin.IN, pyb.Pin.PULL_UP)
         
-        timer3 = pyb.Timer(3, freq=20000)
+        self.internaltimer = timer
         
-        ch1 = timer3.channel (1, pyb.Timer.PWM, pin=pinB4)
-        ch2 = timer3.channel (2, pyb.Timer.PWM, pin=pinB5)
+        self.ch1 = timer.channel (1, pyb.Timer.PWM, pin=motorpin1)
+        self.ch2 = timer.channel (2, pyb.Timer.PWM, pin=motorpin2)
         print("Creating a motor driver")
     
     def set_duty_cycle(self, level):
