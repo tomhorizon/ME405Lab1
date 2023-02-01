@@ -3,9 +3,9 @@ from motor_driver import MotorDriver
 from encoder_reader import EncoderReader
 
 # motor pins
-enablePin = PB4
-input1Pin = PB5
-input2Pin = PA10
+enablePin = pyb.Pin.board.PA10
+input1Pin = pyb.Pin.board.PB4
+input2Pin = pyb.Pin.board.PB5
 # encoder pins
 encoder1Pin = PB6
 encoder2Pin = PB7
