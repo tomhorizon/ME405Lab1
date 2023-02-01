@@ -29,7 +29,7 @@ def motor_control():
     
 if __name__ == "__main__":
     enc_timer = encoder()
-    motor_control()
+    #motor_control()
     
     while True:
         count = enc_timer.counter()
