@@ -1,3 +1,22 @@
+"""!
+@file lab1source.py
+This file is Lab 1 for ME 405. The goal of the exercise was to control
+a 12V DC motor with an external power supply and STM32 PWM output. The
+motor has a built-in encoder which gives position feedback. STM32 timers
+are used to control the encoder input and PWM output.
+
+Once the motor was running well, the motor driver and encoder reader
+were separated into two independent files as classes. This enables the
+main script to be relatively brief and the motor driver/encoder reader
+to be easily used in a later project.
+
+@author Tom Taylor
+@author Jonathan Fraser
+@author Dylan Weiglein
+
+@date   2022-02-01
+"""
+
 import time
 import pyb
 from motor_driver import MotorDriver
