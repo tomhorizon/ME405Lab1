@@ -27,7 +27,7 @@ class EncoderReader:
     
             
     def zero(self):
-        self.timer.counter(0)
+        self.timer.counter([0])
         
 if __name__ == '__main__':
      p1 = pyb.Pin.board.PB6
