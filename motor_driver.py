@@ -1,3 +1,5 @@
+import pyb
+
 class MotorDriver:
     def __init__(self, en_pin, in1pin, in2pin, timer):
         motorpin1 = pyb.Pin (in1pin, pyb.Pin.OUT_PP)
@@ -11,7 +13,8 @@ class MotorDriver:
         print("Creating a motor driver")
     
     def set_duty_cycle(self, level):
-        if level >= 0:
+        if level <= 0:
+            level = -1*level
             self.ch1.pulse_width_percent (level)
             self.ch2.pulse_width_percent (0)
         else:

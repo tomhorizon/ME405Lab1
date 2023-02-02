@@ -1,3 +1,5 @@
+import pyb
+
 class EncoderReader:
     def __init__ (self, pin1, pin2, position, old_count):
         self.pin1 = pyb.Pin (pin1, pyb.Pin.IN)
@@ -15,10 +17,10 @@ class EncoderReader:
     
     def read(self):
         counter = self.timer.counter()
-        if counter > self.old_count + 4000:
+        if counter > self.old_count + 32000:
             self.position = self.position + counter
             print('+')
-        if counter < self.old_count - 4000:
+        elif counter < self.old_count - 32000:
             self.position = self.position - counter
             print('-')
         self.old_count = counter
@@ -27,7 +29,7 @@ class EncoderReader:
     
             
     def zero(self):
-        self.timer.counter([0])
+        self.timer.counter(0)
         
 if __name__ == '__main__':
      p1 = pyb.Pin.board.PB6
@@ -36,10 +38,10 @@ if __name__ == '__main__':
      while (True):
          pos = enc.read()
          print(pos)
-         if pos > 40000:
+         if enc.timer.counter() > 40000:
              print('reset')
              enc.zero()
-    
+         pyb.delay(100)
 
 
 
