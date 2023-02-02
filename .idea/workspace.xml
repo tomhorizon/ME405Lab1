@@ -6,7 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="b552fbd7-49b2-4c8b-b660-d6f5a8683ab5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1source.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Doxyfile1" beforeDir="false" afterPath="$PROJECT_DIR$/Doxyfile1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/annotated.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/annotated.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/classencoder__reader_1_1_encoder_reader-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/classencoder__reader_1_1_encoder_reader-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/classencoder__reader_1_1_encoder_reader.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/classencoder__reader_1_1_encoder_reader.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/classmotor__driver_1_1_motor_driver-members.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/classmotor__driver_1_1_motor_driver-members.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/classmotor__driver_1_1_motor_driver.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/classmotor__driver_1_1_motor_driver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dir_68267d1309a1af8e8297ef4c3efbcdba.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dir_68267d1309a1af8e8297ef4c3efbcdba.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/files.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/files.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/lab1source_8py.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/lab1source_8py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/menudata.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/menudata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search/all_0.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search/all_0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search/all_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search/all_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search/all_2.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search/all_2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search/searchdata.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search/searchdata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/encoder_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/encoder_reader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab1source.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab1source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/motor_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/motor_driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +42,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/phlip/OneDrive - Cal Poly/ME 405 Mechatronics/Lab 0/src/main.py"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="encoder_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ME405Lab2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/encoder_reader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.encoder_reader" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
